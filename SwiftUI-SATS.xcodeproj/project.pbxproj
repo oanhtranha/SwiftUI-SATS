@@ -48,7 +48,7 @@
 		C2AFE13828136229009DC8CE /* SwiftUIFontsDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AFE11428136229009DC8CE /* SwiftUIFontsDemoView.swift */; };
 		C2AFE13A28136229009DC8CE /* TreatmentsDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AFE11728136229009DC8CE /* TreatmentsDemoView.swift */; };
 		C2AFE13B28136229009DC8CE /* UIKitDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AFE11828136229009DC8CE /* UIKitDemoView.swift */; };
-		C2AFE13F281365DB009DC8CE /* SATSCore in Frameworks */ = {isa = PBXBuildFile; productRef = C2AFE13E281365DB009DC8CE /* SATSCore */; };
+		C2FFE41E2813833700D86EE7 /* SATSCore in Frameworks */ = {isa = PBXBuildFile; productRef = C2FFE41D2813833700D86EE7 /* SATSCore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,7 +79,6 @@
 		C2AFE0C228136114009DC8CE /* SwiftUI-SATSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-SATSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2AFE0C628136114009DC8CE /* SwiftUI_SATSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_SATSUITests.swift; sourceTree = "<group>"; };
 		C2AFE0C828136114009DC8CE /* SwiftUI_SATSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_SATSUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		C2AFE0D628136136009DC8CE /* SATSCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SATSCore; path = ../SATSCore; sourceTree = "<group>"; };
 		C2AFE0DC28136229009DC8CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2AFE0DE28136229009DC8CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C2AFE0DF28136229009DC8CE /* Demo.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Demo.xcassets; sourceTree = "<group>"; };
@@ -114,6 +113,7 @@
 		C2AFE11428136229009DC8CE /* SwiftUIFontsDemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIFontsDemoView.swift; sourceTree = "<group>"; };
 		C2AFE11728136229009DC8CE /* TreatmentsDemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreatmentsDemoView.swift; sourceTree = "<group>"; };
 		C2AFE11828136229009DC8CE /* UIKitDemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitDemoView.swift; sourceTree = "<group>"; };
+		C2FFE41C2813830000D86EE7 /* SATSCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SATSCore; path = Packages/SATSCore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2AFE13F281365DB009DC8CE /* SATSCore in Frameworks */,
+				C2FFE41E2813833700D86EE7 /* SATSCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +205,7 @@
 		C2AFE0D528136136009DC8CE /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				C2AFE0D628136136009DC8CE /* SATSCore */,
+				C2FFE41C2813830000D86EE7 /* SATSCore */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -490,7 +490,7 @@
 			);
 			name = "SwiftUI-SATS";
 			packageProductDependencies = (
-				C2AFE13E281365DB009DC8CE /* SATSCore */,
+				C2FFE41D2813833700D86EE7 /* SATSCore */,
 			);
 			productName = "SwiftUI-SATS";
 			productReference = C2AFE0A828136112009DC8CE /* SwiftUI-SATS.app */;
@@ -970,7 +970,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C2AFE13E281365DB009DC8CE /* SATSCore */ = {
+		C2FFE41D2813833700D86EE7 /* SATSCore */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SATSCore;
 		};
